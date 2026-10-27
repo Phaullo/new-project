@@ -3,7 +3,6 @@ const app = express()
 const port = 3000
 
 const usuarios = ['Ana', 'Joao', 'Maria']
-// funcao get, espera 2 parametros (1= CAMINHO, 2= Funcao a ser executada)
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
